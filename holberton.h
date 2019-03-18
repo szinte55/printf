@@ -9,4 +9,13 @@ int print_unsigned_hex(unsigned int);
 char *str(int num, char *str);
 
 
+
+
+typedef struct str
+{
+	char *s;
+	int len;
+}str;
+
+
 #endif
