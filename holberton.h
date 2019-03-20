@@ -5,6 +5,7 @@
 #include <stdarg.h>
 
 
+
 typedef struct PrintStruct
 {
 	char Structure;
