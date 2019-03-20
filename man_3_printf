@@ -1,0 +1,26 @@
+.TH man 3 "19 March 2019" "printf man page"
+.SH NAME
+.B _printf
+- print format string
+.SH DESCRIPTION
+print format string with format specifiers
+.br
+.B %c
+option to print a character
+.br
+.B %s
+option to print a string
+.br
+.B %d
+option to print out digits
+.br
+.B %i
+option to print out integers
+.br
+.B %%
+option to print out percentage symbol
+.br
+.SH REPORT BUGS
+do not report bugs
+.SH AUTHOR
+Written by Diego and Samuel
