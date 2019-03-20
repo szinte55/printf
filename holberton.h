@@ -1,5 +1,5 @@
-#ifndef HolbertonGroup
-#define HolbertonGroup
+#ifndef HolbertonGroupProjectSAMandDIEGO
+#define HolbertonGroupProjectSAMandDIEGO
 #include <stdio.h>
 #include <unistd.h>
 #include <stdarg.h>
