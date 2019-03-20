@@ -1,4 +1,4 @@
-.TH man 3 "19 March 2019" "printf man page"
+.TH man 3 "19 March 2019" "_printf man page"
 .SH NAME
 .B _printf
 - print format string
@@ -16,10 +16,9 @@ option to print out digits
 .br
 .B %i
 option to print out integers
-.br
 .B %%
-option to print out percentage symbol
 .br
+option to print out percentage symbol
 .SH REPORT BUGS
 do not report bugs
 .SH AUTHOR

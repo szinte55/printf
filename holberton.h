@@ -1,21 +1,26 @@
 #ifndef _HOLBERTON_H_
 #define _HOLBERTON_H_
+#include <stdarg.h>
 
-int print_signed_int(signed int);
-int print_unsigned_int(unsigned int);
-int print_unsigned_octal(unsigned int);
-int print_unsigned_binary(unsigned int);
-int print_unsigned_hex(unsigned int);
-char *str(int num, char *str);
+int _printf(const char *format, ...);
+int printchar(va_list c);
+int printstring(va_list s);
+int printint(va_list i);
+int printdigit(va_list d);
+int printpercent(va_list p);
+int _putchar(char c);
 
+/**
+ * struct print - struct used to print format types
+ * @p: type to print
+ * @f: function printed
+ */
 
-
-
-typedef struct str
+typedef struct print
 {
-	char *s;
-	int len;
-}str;
+        char z;
+        int (*f)(va_list);
+} printp;
 
 
 #endif
